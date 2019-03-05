@@ -28,7 +28,7 @@ This homework is to be begun in class, but may be finished outside of class at a
 
 Show us that you have a <tt>GitHub</tt> account. Create a repository on <tt>GitHub</tt> called "36-350". (Utilize the checklist in <tt>Notes_8A</tt>.) Then edit the code below so that we see the contents of <tt>README.md</tt>. To get the correct URL, do the following: go to your <tt>GitHub</tt> repo, click on <tt>36-350</tt> and then again on <tt>README.md</tt>, and click on the "Raw" button. Copy and paste the URL to the raw <tt>README.md</tt> file into the call to <tt>readLines()</tt> below.
 ```{r}
-#readLines("Enter the URL to your own README.md here.")
+readLines('https://raw.githubusercontent.com/gcbrown/36-350/master/README.md')
 ```
 
 ## Question 2
